@@ -2,7 +2,7 @@ It's a backend service with go programming language. This service allows clients
 
 Messages can be sent by performing HTTP POST request to /infocenter/{topic} route. Topic for the message is passed in the request URL, in place of {topic} tag.
 
-For example client that wants to send message "labas" to a topic "baras", should perform the following request:
+For example client that wants to send a message "labas" to a topic "baras", should perform the following request:
 
 ```
 POST /infocenter/baras HTTP/1.0
