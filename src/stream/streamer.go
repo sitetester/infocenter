@@ -3,8 +3,8 @@ package stream
 
 import (
 	"fmt"
-	"github.com/sitetester/Infocenter/src/event"
-	"github.com/sitetester/Infocenter/src/helper"
+	"github.com/sitetester/infocenter/src/event"
+	"github.com/sitetester/infocenter/src/helper"
 	"log"
 	"net/http"
 	"time"
